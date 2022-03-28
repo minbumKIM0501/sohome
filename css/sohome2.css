@@ -1,0 +1,457 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Myeongjo&display=swap");
+.hide {
+  display: none;
+}
+.wrap {
+  width: 100%;
+}
+.headerwrap {
+  width: 100%;
+}
+header {
+  width: 1345px;
+  height: 50px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+header > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header > ul > li {
+  margin: 0 20px;
+}
+header > ul > li > a {
+  font: 13px;
+  color: #959595;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.navbar {
+  width: 100%;
+  background-color: #02162b;
+  height: 55px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  padding: 15px 0 15px;
+}
+.nav > li {
+  margin: 0 25px;
+  position: relative;
+}
+.nav > li > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+/* hover */
+.navbar > nav > .nav > li > .hover{
+  position: absolute;
+  width: 825px;
+  height: 290px;
+  background: url('../img/hover.recliner.png') no-repeat #efefefe8;
+  margin: 20px 0;
+  padding: 60px 0;
+  background-position: 90% 50%;
+  left: 0;
+  top: 20px;
+}
+.navbar > nav > .nav > li:nth-child(2) > .hover{
+  background-image:url('../img/sofa_hover_03.png');
+}
+.navbar > nav > .nav > li:nth-child(3) > .hover{
+  background-image: url('../img/arm_hover_03.png');
+}
+.navbar > nav > .nav > li:nth-child(4) > .hover{
+  background-image: url('../img/table_hover_03.png');
+}
+.navbar > nav > .nav > li:nth-child(5) > .hover{
+  background-image: url('../img/ottoman_hover_03.png');
+}
+.navbar > nav > .nav > li > .hover > h3{
+  color: #131311;
+  font-size: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 40px 115px 35px;
+}
+.navbar > nav > .nav > li > .hover > ul>li > a{
+  color: #131311;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 75px;
+  margin: 0 115px;
+}
+/* hover-end */
+.log {
+  display: flex;
+  margin-top: 20px;
+}
+.log > li {
+  margin: 0 25px;
+}
+.log > li > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.main {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 100px 0 60px;
+  box-sizing: border-box;
+}
+.main > article {
+  border: solid 1px #252525;
+  display: flex;
+  justify-content: space-between;
+  /* width: 1226px; */
+  height: 670px;
+}
+.small > ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+article > .right {
+  margin: 80px 80px;
+}
+.left {
+  margin: 80px 80px;
+}
+/* .small > ul > li{
+    margin: 25px 30px;
+} */
+.right > dl > dt {
+  font-size: 25px;
+  color: #333333;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  line-height: 30px;
+}
+.right > dl > dd {
+  font-size: 25px;
+  color: #8f8f8f;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  border-bottom: solid 1px #252525;
+}
+.pan > span {
+  font-size: 16px;
+  color: #333333;
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+.right > .won {
+  font-size: 18px;
+}
+.pan {
+  margin: 45px 0 45px;
+}
+.choice {
+  border: solid 1px;
+  width: 425px;
+  height: 45px;
+  position: relative;
+}
+.choice > p > select{
+  font-size: 12px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  color: #333333;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 425px;
+  height: 45px;
+  border: none;
+}
+
+/* .choice > p {
+  font-size: 12px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  color: #333333;
+  text-align: center;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+} */
+.choice > p > img {
+  padding-right: 50px;
+}
+/*  */
+.ilnam {
+  margin: 40px 0 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.total {
+  font-size: 20px;
+  color: #333333;
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+.money {
+  font-size: 20px;
+  color: #ca001e;
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+.red {
+  display: flex;
+  justify-content: space-between;
+}
+.red > p > .btn {
+  border: none;
+  width: 205px;
+  height: 50px;
+  background-color: #ca001e;
+  font-size: 14px;
+  color: #ffffff;
+}
+.red > p > .btn2 {
+  border: none;
+  width: 205px;
+  height: 50px;
+  background-color: #4f5256;
+  font-size: 14px;
+  color: #ffffff;
+}
+.lh {
+  width: 1260px;
+  margin: 0 auto;
+}
+.lh > ul {
+  /* width:1228px; */
+
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px #000;
+  border-right: none;
+  /* width: 1250px; */
+  height: 50px;
+  margin: 0 auto;
+}
+.lh > ul > li {
+  width: 25%;
+  box-sizing: border-box;
+  border-right: 1px solid #000;
+}
+.list > li > a {
+  font-size: 18px;
+  line-height: 50px;
+  color: #333333;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  text-align: center;
+  display: block;
+}
+.lh > .list > li > a:hover {
+  background-color: #02162b;
+  color: #ffffff;
+}
+.review {
+  width: 1260px;
+  margin: 0 auto;
+}
+.review > article {
+  text-align: center;
+  margin-top: 105px;
+}
+.review > .event > article {
+  margin: 265px 0 140px;
+}
+.review > .danger {
+  margin-top: 100px;
+}
+.review > .danger > .time {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1040px;
+  background-color: #efefef56;
+  padding: 85px;
+  /* border-radius: 40px; */
+}
+.review > .danger > .time > h3 {
+  font-size: 20px;
+  font-family: "Nanum Myeongjo", serif;
+  color: #333333;
+}
+.review > .danger > .time > ul > li {
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #333333;
+  line-height: 30px;
+}
+.review > .danger > .time > ul > li > .font {
+  color: #ca001e;
+  font-weight: 900;
+}
+.review > .danger > .time > ul > li > .bold {
+  color: #040404;
+  font-weight: 900;
+}
+.review > .event {
+  text-align: center;
+}
+.review > .event > article > img {
+  width: 100%;
+  display: block;
+  border-radius: 47px;
+}
+.review > h4 {
+  text-align: center;
+  font-size: 48px;
+  color: #040404;
+  font-family: "Jua", sans-serif;
+  padding-bottom: 90px;
+}
+.review > .minbum > .color-red {
+  color: #ca001e;
+}
+.review > .kim {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.review > .kim > li > a > article {
+  text-align: center;
+  margin: 17px 0 21px;
+}
+.review > .kim > li > a > dl {
+  text-align: center;
+}
+.review > .kim > li > a > dl > dt {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  margin: 0 0 10px;
+}
+.review > .kim > li > a > dl > dd {
+  font-size: 14px;
+  color: #666666;
+}
+.board {
+  width: 1260px;
+  margin: 0 auto;
+}
+.board > h3 {
+  text-align: center;
+  font-size: 48px;
+  color: #040404;
+  font-family: "Jua", sans-serif;
+  margin: 115px 0 100px;
+}
+.board > h3 > strong {
+  color: #ca001e;
+}
+.board > table {
+  width: 1180px;
+  margin-bottom: 60px;
+}
+.board > table > thead {
+  background-color: #ededed;
+  color: #333333;
+  border-top: solid 1px #040404;
+  border-bottom: solid 1px #040404;
+}
+.board > table > thead > tr > td {
+  padding: 13px 25px;
+  text-align: center;
+}
+.board > table > tbody > tr > td {
+  padding: 13px 0px;
+  text-align: center;
+}
+.board > table > tbody {
+  border-top: solid 1px #040404;
+  border-bottom: solid 1px #040404;
+}
+.board > table > thead > tr > .name2 {
+  text-align: center;
+}
+.board > table > tbody > tr > .name2 {
+  text-align: center;
+}
+/* footer */
+aside {
+  padding: 60px 0;
+  background: url(../img/sample3_30.gif) repeat-x;
+}
+.contact {
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+}
+.footer-top {
+  width: 1345px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact > h4 {
+  font-size: 30px;
+}
+.contact > h5 {
+  font-size: 24px;
+  line-height: 55px;
+}
+.contact > p {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.contact-r > h4 {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  line-height: 55px;
+  margin-left: 25px;
+}
+.contact-r > p {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  line-height: 25px;
+}
+.stores {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  margin: 25px;
+}
+.bt-nav {
+  background: url(../img/sample3_31.gif) repeat-x;
+  padding: 15px 0 30px 0;
+}
+footer {
+  width: 1345px;
+  margin: 0 auto;
+}
+footer > dl {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 25px;
+  margin-top: 50px;
+}
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+footer > ul > li {
+  /* display: inline-block; */
+  margin: 22px;
+}
+.sm {
+  text-align: center;
+}
+.bt-nav > footer > .sm > small {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+}

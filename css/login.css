@@ -1,0 +1,264 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Myeongjo&display=swap");
+.wrap {
+  width: 100%;
+}
+.headerwrap {
+  width: 100%;
+}
+header {
+  width: 1345px;
+  height: 50px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+header > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header > ul > li {
+  margin: 0 20px;
+}
+header > ul > li > a {
+  font-size: 13px;
+  color: #959595;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.navbar {
+  width: 100%;
+  background-color: #02162b;
+  height: 55px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  padding: 15px 0 15px;
+}
+.nav > li {
+  margin: 0 25px;
+  position: relative;
+}
+.nav > li > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+/* hover */
+.navbar > nav > .nav > li > .hover{
+  position: absolute;
+  width: 825px;
+  height: 290px;
+  background: url('../img/hover.recliner.png') no-repeat #efefefe8;
+  margin: 20px 0;
+  padding: 60px 0;
+  background-position: 90% 50%;
+  left: 0;
+  top: 20px;
+}
+.navbar > nav > .nav > li:nth-child(2) > .hover{
+  background-image:url('../img/sofa_hover_03.png');
+}
+.navbar > nav > .nav > li:nth-child(3) > .hover{
+  background-image: url('../img/arm_hover_03.png');
+}
+.navbar > nav > .nav > li:nth-child(4) > .hover{
+  background-image: url('../img/table_hover_03.png');
+}
+.navbar > nav > .nav > li:nth-child(5) > .hover{
+  background-image: url('../img/ottoman_hover_03.png');
+}
+.navbar > nav > .nav > li > .hover > h3{
+  color: #131311;
+  font-size: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 40px 115px 35px;
+}
+.navbar > nav > .nav > li > .hover > ul>li > a{
+  color: #131311;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 75px;
+  margin: 0 115px;
+}
+/* hover-end */
+.log {
+  display: flex;
+  margin-top: 20px;
+}
+.log > li {
+  margin: 0 25px;
+}
+.log > li > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.back > .main {
+  background: url("../img/background.png") repeat-x;
+}
+.back > .main > h2 {
+  text-align: center;
+}
+.back > .main > .input {
+  width: 1400px;
+  margin: 0 auto;
+}
+.back > .main > h2 {
+  text-align: center;
+}
+.back > .main > h2 > img {
+  width: 390px;
+  margin: 130px 0 70px;
+}
+.back > .main > .input {
+  text-align: center;
+}
+.back > .main > .input > .id > .input_text {
+  width: 500px;
+  height: 50px;
+  background-color: #ffffff;
+  font-size: 14px;
+  color: #a3a3a3;
+  border: none;
+  margin: 0 0 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.back > .main > .input > .password > .input_text {
+  width: 500px;
+  height: 50px;
+  background-color: #ffffff;
+  font-size: 14px;
+  color: #a3a3a3;
+  border: none;
+  margin: 0 0 60px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.back > .main > .input > .login > .btn_login {
+  width: 500px;
+  height: 60px;
+  background-color: #02162b;
+  font-size: 24px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+.back > .main > .input > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 40px;
+}
+.back > .main > .input > ul > li {
+  margin: 0 20px;
+}
+.back > .main > .input > ul > li > a {
+  color: #ffffff;
+  font-size: 12px;
+}
+.back > .main > .input > .sohome_made {
+  font-size: 18px;
+  color: #ffffff;
+}
+.back > .main > .input > .sohome_made > .made {
+  font-size: 16px;
+}
+.back > .main > .input > .join > .join_member {
+  width: 500px;
+  height: 60px;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #ffffff00;
+  border: solid 1px #ffffff;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+/* footer */
+aside {
+  padding: 60px 0;
+  background: url(../img/sample3_30.gif) repeat-x;
+}
+.contact {
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+}
+.footer-top {
+  width: 1345px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact > h4 {
+  font-size: 30px;
+}
+.contact > h5 {
+  font-size: 24px;
+  line-height: 55px;
+}
+.contact > p {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.contact-r > h4 {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  line-height: 55px;
+  margin-left: 25px;
+  margin-top: -15px;
+}
+.contact-r > p {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  line-height: 25px;
+}
+.stores {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  margin: 25px;
+}
+.bt-nav {
+  background: url(../img/sample3_31.gif) repeat-x;
+  padding: 15px 0 30px 0;
+}
+footer {
+  width: 1345px;
+  margin: 0 auto;
+}
+footer > dl {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 25px;
+  margin-top: 50px;
+}
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+footer > ul > li {
+  /* display: inline-block; */
+  margin: 22px;
+}
+.sm {
+  text-align: center;
+}
+.bt-nav > footer > .sm > small {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+}

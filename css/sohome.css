@@ -1,0 +1,333 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@600&display=swap");
+.wrap {
+  width: 100%;
+}
+.headerwrap {
+  width: 100%;
+}
+
+header {
+  width: /* 1345px */98%;
+  height: 50px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+header > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header > ul > li {
+  margin: 0 20px;
+}
+header > ul > li > a {
+  font: 13px;
+  color: #959595;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.navbar {
+  width: 100%;
+  background-color: #02162b;
+  height: 55px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: /* 1345px */98%;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  padding: 15px 0 15px;
+  position: relative;
+  /* margin-top: 20px; */
+}
+.nav > li {
+  margin: 0 25px;
+  position: relative;
+}
+.nav > li > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+/* hover */
+.navbar > nav > .nav > li > .hover{
+  position: absolute;
+  width: 825px;
+  height: 290px;
+  background: url('../img/hover.recliner.png') no-repeat #efefefe8;
+  margin: 20px 0;
+  padding: 60px 0;
+  background-position: 90% 50%;
+  left: 0;
+  top: 20px;
+}
+nav > .nav > li:nth-child(2) > .hover{
+  background-image:url('../img/sofa_hover_03.png');
+}
+nav > .nav > li:nth-child(3) > .hover{
+  background-image: url('../img/arm_hover_03.png');
+}
+nav > .nav > li:nth-child(4) > .hover{
+  background-image: url('../img/table_hover_03.png');
+}
+nav > .nav > li:nth-child(5) > .hover{
+  background-image: url('../img/ottoman_hover_03.png');
+}
+/* 버튼 */
+#btn_01{
+  display: none;
+  position: absolute;
+  left: 122px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+}
+#btn_01 > span{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+#btn_01 > span:nth-child(2){
+  top: 20%;
+}
+#btn_01 > span:nth-child(3){
+  top: 40%;
+}
+#btn_01 > span:nth-child(4){
+  top: 60%;
+}
+#btn_01 > span:nth-child(5){
+  top: 80%;
+}
+/* 닫기 버튼 */
+.nav > .close {
+  /* display: none; */
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 300px;
+  background-color: #ffffff00;
+}
+.nav > .close > span {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+}
+.nav > .close > span:nth-child(1){
+  transform: rotate(-135deg) translateX(0%);
+}
+.nav > .close > span:nth-child(2){
+  transform: rotate(-45deg) translateX(0%);
+}
+/*  */
+.navbar > nav > .nav > li > .hover > h3{
+  color: #131311;
+  font-size: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 40px 115px 35px;
+}
+.navbar > nav > .nav > li > .hover > ul>li > a{
+  color: #131311;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 75px;
+  margin: 0 115px;
+}
+/*  */
+.log {
+  display: flex;
+  margin-top: 20px;
+}
+.log > li {
+  margin: 0 25px;
+}
+.log > li > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.name {
+  width: 100%;
+}
+.name > article > div.h3back {
+  height: 475px;
+  background: url("../img/banner.png") repeat-x center top;
+}
+.name > article > div.h3back > h3 {
+  width: /* 1345px */98%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name > article > div.h3back > h3 > span:first-child {
+  font-size: 60px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+}
+.name > article > div.h3back > h3 > span:last-child {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+}
+.name > article > div.subback {
+  width: 100%;
+}
+.name > article > div.subback > div {
+  width: 553px/* 27.929292% */;
+  margin: 0 /* 290px */14.561338% 150px;
+}
+.name > article > div.subback > div > ul {
+  border-radius: 103px;
+  transform: translateY(-35px);
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgb(30 30 30 / 12%);
+  border-top: 2px solid #ededed;
+  height: 75px;
+  text-align: center;
+}
+.name > article > div.subback > div > ul > li {
+  display: inline-block;
+  margin-top: 25px;
+}
+.name > article > div.subback > div > ul > li > a {
+  font-size: 18px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #737373;
+  margin: 25px;
+}
+.main {
+  width: /* 1345px */67.929292%;
+  margin: 0 auto;
+}
+.main > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main > ul > li{
+  width: 25.0557%;
+}
+
+figure > figcaption {
+  margin-bottom: 65px;
+}
+figure {
+  width: 98%;
+}
+figure > img {
+  width: 98%;
+}
+.furniture {
+  margin-top: 30px;
+}
+.furniture > dt {
+  font-size: 18px;
+  color: #333333;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.furniture > .small {
+  font-size: 12px;
+  color: #8f8f8f;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 20px;
+}
+.furniture > dd {
+  font-size: 18px;
+  color: #333333;
+  font-family: "Noto Sans KR", sans-serif;
+}
+/* footer */
+aside {
+  padding: 60px 0;
+  background: url(../img/sample3_30.gif) repeat-x;
+}
+.contact {
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+}
+.footer-top {
+  width: /* 1345px */98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact > h4 {
+  font-size: 30px;
+}
+.contact > h5 {
+  font-size: 24px;
+  line-height: 55px;
+}
+.contact > p {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.contact-r > h4 {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  line-height: 55px;
+  margin-left: 25px;
+}
+.contact-r > p {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  line-height: 25px;
+}
+.stores {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  margin: 25px;
+}
+.bt-nav {
+  background: url(../img/sample3_31.gif) repeat-x;
+  padding: 15px 0 30px 0;
+}
+footer {
+  width: /* 1345px */98%;
+  margin: 0 auto;
+}
+footer > dl {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 25px;
+  margin-top: 50px;
+}
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+footer > ul > li {
+  /* display: inline-block; */
+  margin: 22px;
+}
+.sm {
+  text-align: center;
+}
+.bt-nav > footer > .sm > small {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+}

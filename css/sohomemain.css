@@ -1,0 +1,408 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+.wrap {
+  width: 100%;
+}
+.headerwrap {
+  width: 100%;
+}
+header {
+  width: 1345px;
+  height: 50px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+header > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header > ul > li {
+  margin: 0 20px;
+}
+header ul > li > a {
+  font-size: 13px;
+  color: #959595;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.navbar {
+  width: 100%;
+  background-color: #02162b;
+  height: 55px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1345px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  padding: 15px 0 15px;
+}
+.nav > li {
+  margin: 0 25px;
+  position: relative;
+}
+.nav > li > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+/* hover */
+.navbar > nav > .nav > li > .hover {
+  position: absolute;
+  width: 825px;
+  height: 290px;
+  background: url("../img/hover.recliner.png") no-repeat #efefefe8;
+  margin: 20px 0;
+  padding: 60px 0;
+  background-position: 90% 50%;
+  left: 0;
+  top: 20px;
+}
+.navbar > nav > .nav > li:nth-child(2) > .hover {
+  background-image: url("../img/sofa_hover_03.png");
+  background-position: 90% 50%;
+}
+.navbar > nav > .nav > li:nth-child(3) > .hover {
+  background-image: url("../img/arm_hover_03.png");
+}
+.navbar > nav > .nav > li:nth-child(4) > .hover {
+  background-image: url("../img/table_hover_03.png");
+}
+.navbar > nav > .nav > li:nth-child(5) > .hover {
+  background-image: url("../img/ottoman_hover_03.png");
+}
+.navbar > nav > .nav > li > .hover > h3 {
+  color: #131311;
+  font-size: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 40px 115px 35px;
+}
+.navbar > nav > .nav > li > .hover > ul > li > a {
+  color: #131311;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 75px;
+  margin: 0 115px;
+}
+/* hover-end */
+
+.log {
+  display: flex;
+  margin-top: 20px;
+}
+.log > li {
+  margin: 0 25px;
+}
+.log > li > a {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.main {
+  background: url(../main/background.png) repeat-x;
+  width: 100%;
+}
+.main > article {
+  width: 1470px;
+  margin: 0 auto;
+}
+.main > article > img {
+  width: 98%;
+  padding: 40px 0 40px;
+}
+.num {
+  width: 1470px;
+  margin: 0 auto;
+}
+.num > h3 {
+  text-align: center;
+  font-size: 48px;
+  color: #6b6b69;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  margin: 60px 0 60px;
+}
+.num > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px;
+}
+.choice {
+  text-align: center;
+  font-size: 18px;
+  color: #02162b;
+  margin: 28px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.center > ul {
+  display: flex;
+}
+.center > ul > .n1 {
+  width: 25%;
+  height: 700px;
+  background: url(../main/num01.png) no-repeat bottom;
+  background-size: 390px;
+  background-color: #8391ad;
+  overflow: hidden;
+}
+.center > ul > li:hover {
+  background-size: 420px;
+  /* transform: scale(1.1); */
+  opacity: 0.95;
+  transition: background-size 0.3s ease-in-out;
+}
+.center > ul > .n2 {
+  width: 25%;
+  height: 700px;
+  background: url(../main/sofa.png) no-repeat no-repeat center;
+  background-size: 390px;
+  background-color: #3c4343;
+  overflow: hidden;
+}
+
+.center > ul > .n3 {
+  width: 25%;
+  height: 700px;
+  background: url(../main/armchair.png);
+  overflow: hidden;
+}
+.center > ul > .n3:hover {
+  background-size: 585px;
+  opacity: 0.95;
+  transition: background-size 0.3s ease-in-out;
+}
+
+.center > ul > .n4 {
+  width: 25%;
+  height: 700px;
+  background: url(../main/table.png) no-repeat top center;
+  background-color: #959595;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.center > ul > .n5 {
+  width: 25%;
+  height: 700px;
+  background: url(../main/ottoman.png) no-repeat;
+  background-size: 390px;
+  background-color: #6c6354;
+  overflow: hidden;
+}
+
+.center > ul > li > a > span:nth-child(1) {
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Noto Sans KR", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.center > ul > li > a > span:nth-child(2) {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Noto Sans KR", sans-serif;
+  margin-left: 50px;
+  line-height: 30px;
+}
+/*  */
+.bset {
+  width: 1470px;
+  margin: 0 auto;
+}
+.kmb {
+  font-size: 48px;
+  color: #131311;
+  text-align: center;
+  margin: 50px 0 50px;
+}
+.bset > ul {
+  column-count: 4;
+  margin: 0 auto 100px;
+}
+.bset > ul > li {
+  margin-bottom: 60px;
+  width: 296px;
+}
+.bset > ul > li:hover {
+  transform: scale(1.1);
+  opacity: 0.95;
+  transition: all 0.3s ease-in-out;
+}
+
+.instar {
+  background: url("../main/lefthand.png") left center no-repeat,
+    url("../main/righthand.png") right center no-repeat, #272727;
+  padding: 230px 0;
+  text-align: center;
+}
+.instar > h3 {
+  font-size: 50px;
+  color: #ffffff;
+  font-family: "Jua", sans-serif;
+  text-align: center;
+}
+.instar > h4 {
+  font-size: 40px;
+  font-family: "Jua", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+.instar > h3 > img {
+  width: 300px;
+  text-align: center;
+}
+
+.instar > p > .btn {
+  width: 250px;
+  height: 70px;
+  background-color: #e04e59;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: "Nanum Myeongjo", serif;
+  color: #ffffff;
+  margin: 115px;
+}
+.end {
+  /* width: 1980px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.end > article {
+  width: 840px;
+  background: url("../main/aside.png") no-repeat;
+  padding: 300px 0 300px;
+}
+.end > article > h2 {
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  text-align: center;
+}
+.end > article > h3 {
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 60px 0 60px;
+  text-align: center;
+}
+.end > article > p {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+  line-height: 25px;
+}
+.img {
+  margin: 0 auto;
+  display: flex;
+}
+.img1 > ul {
+  margin: 20px;
+}
+.img1 > ul > li {
+  margin-top: 20px;
+}
+.img2 > ul {
+  margin-top: 40px;
+}
+.img2 > ul > li {
+  margin-top: 20px;
+}
+.img1 > ul > li:hover {
+  transform: scale(1.1);
+  opacity: 0.95;
+  transition: all 0.3s ease-in-out;
+}
+.img2 > ul > li:hover {
+  transform: scale(1.1);
+  opacity: 0.95;
+  transition: all 0.3s ease-in-out;
+}
+/* footer */
+aside {
+  padding: 60px 0;
+  background: url("../img/sample3_30.gif") repeat-x;
+}
+.contact {
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+}
+.footer-top {
+  width: 1345px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact > h4 {
+  font-size: 30px;
+}
+.contact > h5 {
+  font-size: 24px;
+  line-height: 55px;
+}
+.contact > p {
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.contact-r > h4 {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  line-height: 55px;
+  margin-left: 25px;
+}
+.contact-r > p {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  line-height: 25px;
+}
+.stores {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  margin: 25px;
+}
+.bt-nav {
+  background: url("../img/sample3_31.gif") repeat-x;
+  padding: 15px 0 30px 0;
+}
+footer {
+  width: 1345px;
+  margin: 0 auto;
+}
+footer > dl {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 25px;
+  margin-top: 50px;
+}
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+footer > ul > li {
+  margin: 22px;
+}
+.sm {
+  text-align: center;
+}
+.bt-nav > footer > .sm small {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
