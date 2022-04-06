@@ -10,7 +10,7 @@
 }
 
 header {
-  width: /* 1345px */98%;
+  width: /* 1345px */ 98%;
   height: 50px;
   margin: 20px auto;
   display: flex;
@@ -39,7 +39,7 @@ header > ul > li > a {
 nav {
   display: flex;
   justify-content: space-between;
-  width: /* 1345px */98%;
+  width: /* 1345px */ 98%;
   margin: 0 auto;
 }
 .nav {
@@ -58,39 +58,39 @@ nav {
   font-family: "Noto Sans KR", sans-serif;
 }
 /* hover */
-.navbar > nav > .nav > li > .hover{
+.navbar > nav > .nav > li > .hover {
   position: absolute;
   width: 825px;
   height: 290px;
-  background: url('../img/hover.recliner.png') no-repeat #efefefe8;
+  background: url("../img/hover.recliner.png") no-repeat #efefefe8;
   margin: 20px 0;
   padding: 60px 0;
   background-position: 90% 50%;
   left: 0;
   top: 20px;
 }
-nav > .nav > li:nth-child(2) > .hover{
-  background-image:url('../img/sofa_hover_03.png');
+nav > .nav > li:nth-child(2) > .hover {
+  background-image: url("../img/sofa_hover_03.png");
 }
-nav > .nav > li:nth-child(3) > .hover{
-  background-image: url('../img/arm_hover_03.png');
+nav > .nav > li:nth-child(3) > .hover {
+  background-image: url("../img/arm_hover_03.png");
 }
-nav > .nav > li:nth-child(4) > .hover{
-  background-image: url('../img/table_hover_03.png');
+nav > .nav > li:nth-child(4) > .hover {
+  background-image: url("../img/table_hover_03.png");
 }
-nav > .nav > li:nth-child(5) > .hover{
-  background-image: url('../img/ottoman_hover_03.png');
+nav > .nav > li:nth-child(5) > .hover {
+  background-image: url("../img/ottoman_hover_03.png");
 }
 /* 버튼 */
-#btn_01{
+#btn_01 {
   display: none;
   position: absolute;
-  left: 122px;
+  left: 50px;
   top: 10px;
   width: 40px;
   height: 40px;
 }
-#btn_01 > span{
+#btn_01 > span {
   position: absolute;
   left: 0;
   top: 0;
@@ -98,16 +98,16 @@ nav > .nav > li:nth-child(5) > .hover{
   height: 2px;
   background-color: #ffffff;
 }
-#btn_01 > span:nth-child(2){
+#btn_01 > span:nth-child(2) {
   top: 20%;
 }
-#btn_01 > span:nth-child(3){
+#btn_01 > span:nth-child(3) {
   top: 40%;
 }
-#btn_01 > span:nth-child(4){
+#btn_01 > span:nth-child(4) {
   top: 60%;
 }
-#btn_01 > span:nth-child(5){
+#btn_01 > span:nth-child(5) {
   top: 80%;
 }
 /* 닫기 버튼 */
@@ -127,27 +127,27 @@ nav > .nav > li:nth-child(5) > .hover{
   height: 3px;
   background-color: #ffffff;
 }
-.nav > .close > span:nth-child(1){
+.nav > .close > span:nth-child(1) {
   transform: rotate(-135deg) translateX(0%);
 }
-.nav > .close > span:nth-child(2){
+.nav > .close > span:nth-child(2) {
   transform: rotate(-45deg) translateX(0%);
 }
 /*  */
-.navbar > nav > .nav > li > .hover > h3{
+.navbar > nav > .nav > li > .hover > h3 {
   color: #131311;
   font-size: 25px;
   font-family: "Noto Sans KR", sans-serif;
   margin: 40px 115px 35px;
 }
-.navbar > nav > .nav > li > .hover > ul>li > a{
+.navbar > nav > .nav > li > .hover > ul > li > a {
   color: #131311;
   font-size: 16px;
   font-family: "Noto Sans KR", sans-serif;
   line-height: 75px;
   margin: 0 115px;
 }
-/*  */
+/* hover end */
 .log {
   display: flex;
   margin-top: 20px;
@@ -169,7 +169,7 @@ nav > .nav > li:nth-child(5) > .hover{
   background: url("../img/banner.png") repeat-x center top;
 }
 .name > article > div.h3back > h3 {
-  width: /* 1345px */98%;
+  width: /* 1345px */ 98%;
   margin: 0 auto;
   height: 100%;
   display: flex;
@@ -190,8 +190,8 @@ nav > .nav > li:nth-child(5) > .hover{
   width: 100%;
 }
 .name > article > div.subback > div {
-  width: 553px/* 27.929292% */;
-  margin: 0 /* 290px */14.561338% 150px;
+  width: 553px /* 27.929292% */;
+  margin: 0 /* 290px */ 14.561338% 150px;
 }
 .name > article > div.subback > div > ul {
   border-radius: 103px;
@@ -213,7 +213,7 @@ nav > .nav > li:nth-child(5) > .hover{
   margin: 25px;
 }
 .main {
-  width: /* 1345px */67.929292%;
+  width: /* 1345px */ 67.929292%;
   margin: 0 auto;
 }
 .main > ul {
@@ -222,7 +222,7 @@ nav > .nav > li:nth-child(5) > .hover{
   justify-content: space-between;
   align-items: center;
 }
-.main > ul > li{
+.main > ul > li {
   width: 25.0557%;
 }
 
@@ -255,57 +255,13 @@ figure > img {
   font-family: "Noto Sans KR", sans-serif;
 }
 /* footer */
-aside {
-  padding: 60px 0;
-  background: url(../img/sample3_30.gif) repeat-x;
-}
-.contact {
-  color: #ffffff;
-  font-family: "Nanum Myeongjo", serif;
-}
-.footer-top {
-  width: /* 1345px */98%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-.contact > h4 {
-  font-size: 30px;
-}
-.contact > h5 {
-  font-size: 24px;
-  line-height: 55px;
-}
-.contact > p {
-  font-size: 14px;
-  line-height: 25px;
-  font-family: "Noto Sans KR", sans-serif;
-}
-.contact-r > h4 {
-  font-size: 30px;
-  color: #ffffff;
-  font-family: "Nanum Myeongjo", serif;
-  line-height: 55px;
-  margin-left: 25px;
-}
-.contact-r > p {
-  font-size: 14px;
-  color: #ffffff;
-  font-family: "Nanum Myeongjo", serif;
-  line-height: 25px;
-}
-.stores {
-  font-size: 18px;
-  color: #ffffff;
-  font-family: "Nanum Myeongjo", serif;
-  margin: 25px;
-}
+
 .bt-nav {
   background: url(../img/sample3_31.gif) repeat-x;
   padding: 15px 0 30px 0;
 }
 footer {
-  width: /* 1345px */98%;
+  width: /* 1345px */ 98%;
   margin: 0 auto;
 }
 footer > dl {

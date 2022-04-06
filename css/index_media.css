@@ -3,13 +3,13 @@
 @media screen and (min-width: 1345px) {
   header,
   nav,
-  .name > article > div.h3back > h3,
-  .main,
-  .footer-top,
+  .commercial,
+  .num,
+  .best,
+  .end,
   footer {
-    width: 1345px;
+    width: 1470px;
   }
-
   .main > ul {
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +21,15 @@
   }
   nav > ul > li > div {
     display: none;
+  }
+  .commercial {
+    margin: 0 auto;
+  }
+  .footer-top {
+    margin: 0 auto;
+  }
+  footer {
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 1344px) and (min-width: 980px) {
@@ -230,78 +239,20 @@
     font-family: "Noto Sans KR", sans-serif;
   }
   /*  */
-  .name > article > div.subback > div {
-    margin: 0 /* 290px */ 14.561338% 150px;
-  }
-  .name > article > div.subback {
-    width: 33.3333%;
-  }
-  .main {
-    margin: 0 auto;
-    transform: translateX(15px);
-  }
-  .name > article > div.subback {
-    width: 33.3333%;
-  }
-  .main {
-    margin: 0 auto;
-    transform: translateX(15px);
-  }
-  .main > ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    transform: translateX(25px);
-  }
-  .main > ul > li {
-    width: 33.333%;
-  }
-  figure {
-    width: 90%;
-  }
-  figure > img {
-    width: 90%;
-  }
-  figure > figcaption {
-    width: 90%;
-  }
-  .name > article > div.h3back > h3 {
-    width: 736px;
-  }
-  /* footer */
-  footer > dl {
-    display: none;
-  }
-  footer > ul {
-    display: none;
-  }
-  aside {
-    padding: 55px 20px;
-    background-color: #f4f4f4;
-    background-size: cover;
-    background-position: left;
-  }
-  .footer-top {
+  /* 고객님을 위한 가구추천 */
+  .num {
     width: 980px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    overflow: hidden;
   }
-  .contact > h4 {
-    font-size: 14px;
+  .num > ul {
+    overflow: hidden;
+    /*     display: inline-block; */
+    margin: 60px;
   }
-  .contact > h5 {
-    font-size: 11px;
-  }
-  .contact > p {
-    font-size: 7px;
-  }
-  .contact-r > h4 {
-    font-size: 14px;
-  }
-  .contact-r > p {
-    font-size: 7px;
+  .num > ul > li {
+    display: inline-block;
+    margin: 60px;
   }
 }
 /* 모바일 */
@@ -430,37 +381,4 @@
     margin: 40px 0 20px;
   }
   /* nav hover -end- */
-  /* main */
-  /* sub */
-  .name > article > div.subback > div {
-    width: 373px /* 27.929292% */;
-    margin: 0 /* 290px */ 14.561338% 150px;
-  }
-  /* sub-end- */
-  .main {
-    width: 390px;
-    margin: 0 auto;
-  }
-  .main > ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  .main > ul > li {
-    width: 33.333%;
-  }
-  figure {
-    width: 90%;
-  }
-  figure > img {
-    width: 90%;
-  }
-  footer > dl {
-    display: none;
-  }
-  footer > ul {
-    display: none;
-  }
-  /* main-end- */
 }
