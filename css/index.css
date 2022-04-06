@@ -485,3 +485,36 @@ footer > ul > li {
   font-size: 18px;
   font-family: "IBM Plex Sans KR", sans-serif;
 }
+
+.dimed {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(0,0,0, 0.2);
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.dimed > button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  padding:20px;
+  width: 200px;
+  border: none;
+  background-color: #e04e59;
+  color: #fff;
+}
+.dimed:hover{
+  opacity: 1;
+  transition: all 0.5 ease-in;
+}
+
+.none{
+  position: relative;
+}
+
