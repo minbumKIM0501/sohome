@@ -2,11 +2,8 @@
 
 @media screen and (min-width: 1345px) {
   header,
-  nav,
   .commercial,
-  .num,
   .best,
-  .end,
   footer {
     width: 1470px;
   }
@@ -253,6 +250,66 @@
   .num > ul > li {
     display: inline-block;
     margin: 60px;
+  }
+  /* main 광고 */
+  /*   .main > article > ul{
+    width: 980px;
+  } */
+  .main > article > ul > li.bx01 {
+    background: url("../main/tablet_main01.jpg") no-repeat center;
+    background-size: 80%;
+  }
+  .main > article > ul > li.bx02 {
+    background: url("../main/tablet_main02.jpg") no-repeat center;
+    background-size: 80%;
+  }
+  .main > article > ul > li.bx03 {
+    background: url("../main/tablet_main03.jpg") no-repeat center;
+    background-size: 80%;
+  }
+  .main > article > ul > li.bx04 {
+    background: url("../main/tablet_main04.jpg") no-repeat center;
+    background-size: 80%;
+  }
+  .main > article > ul > li {
+    width: 979px;
+    height: 700px;
+    position: absolute;
+    background-size: 980px;
+  }
+  /* footer */
+  footer > dl {
+    display: none;
+  }
+  footer > ul {
+    display: none;
+  }
+  aside {
+    padding: 55px 20px;
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-position: left;
+  }
+  .footer-top {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact > h4 {
+    font-size: 14px;
+  }
+  .contact > h5 {
+    font-size: 11px;
+  }
+  .contact > p {
+    font-size: 7px;
+  }
+  .contact-r > h4 {
+    font-size: 14px;
+  }
+  .contact-r > p {
+    font-size: 7px;
   }
 }
 /* 모바일 */

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
 .wrap {
   width: 100%;
 }
@@ -37,7 +38,7 @@ header ul > li > a {
 nav {
   display: flex;
   justify-content: space-between;
-  width: /* 1345px; */ 98%;
+  width: /* 1345px; */ 80%;
   margin: 0 auto;
 }
 .nav {
@@ -160,43 +161,22 @@ nav {
   font-size: 20px;
   font-family: "Noto Sans KR", sans-serif;
 }
-.main {
-  background: url(../main/background.png) repeat-x;
-  background-color: #131311;
+.mySlider {
   width: 100%;
 }
-.main > article {
-  width: 1470px;
+.bx-wrapper > .bx-viewport {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
   height: 700px;
-  padding: 20px 0 20px 0;
+}
+.bx-wrapper img {
   margin: 0 auto;
 }
-/*  */
-.main > article > ul {
-  width: 1470px;
-  height: 700px;
-  position: relative;
-}
-.main > article > ul > li {
-  width: 1470px;
-  height: 700px;
-  position: absolute;
-}
-.main > article > ul > li.bx01 {
-  background: url("../main/main.png") no-repeat center;
-}
-.main > article > ul > li.bx02 {
-  background: url("../main/main02.jpg") no-repeat center;
-}
-.main > article > ul > li.bx03 {
-  background: url("../main/main03.jpg") no-repeat center;
-}
-.main > article > ul > li.bx04 {
-  background: url("../main/main04.jpg") no-repeat center;
-}
+/* bxslider */
 /*  */
 .num {
-  width: /* 1470px */ 98%;
+  width: /* 1470px */ 80%;
   margin: 0 auto;
 }
 .num > h3 {
@@ -208,13 +188,13 @@ nav {
 }
 .num > ul {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  width:/*  1470px */ 98%;
+  justify-content: center;
+  height: 350px;
 }
-.num > ul .choice {
+.num > ul > li {
+  margin: 0 20px;
+}
+.choice {
   text-align: center;
   font-size: 18px;
   color: #02162b;
@@ -295,7 +275,7 @@ nav {
 }
 /*  */
 .bset {
-  width: 1470px;
+  width: /* 1470px; */ 98%;
   margin: 0 auto;
 }
 .kmb {
@@ -305,8 +285,9 @@ nav {
   margin: 50px 0 50px;
 }
 .bset > ul {
+  width: /* 1470px */ 80%;
   column-count: 4;
-  margin: 0 auto 100px;
+  margin: 0 auto /*  100px */;
 }
 .bset > ul > li {
   margin-bottom: 60px;
@@ -353,7 +334,7 @@ nav {
   margin: 115px;
 }
 .end {
-  /* width: 1980px; */
+  width: 98%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -460,7 +441,7 @@ aside {
   padding: 15px 0 30px 0;
 }
 footer {
-  width: 1345px;
+  width: /* 1345px */ 98%;
   margin: 0 auto;
 }
 footer > dl {
@@ -484,4 +465,36 @@ footer > ul > li {
   color: #ffffff;
   font-size: 18px;
   font-family: "IBM Plex Sans KR", sans-serif;
+}
+
+.dimed {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.dimed > button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  padding: 20px;
+  width: 200px;
+  border: none;
+  background-color: #e04e59;
+  color: #fff;
+}
+.dimed:hover {
+  opacity: 1;
+  transition: all 0.5 ease-in;
+}
+
+.none {
+  position: relative;
 }
