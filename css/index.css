@@ -179,6 +179,7 @@ nav {
   width: /* 1470px */ 80%;
   margin: 0 auto;
 }
+
 .num > h3 {
   text-align: center;
   font-size: 48px;
@@ -494,7 +495,6 @@ footer > ul > li {
   opacity: 1;
   transition: all 0.5 ease-in;
 }
-
 .none {
   position: relative;
 }
