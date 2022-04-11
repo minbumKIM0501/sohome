@@ -178,6 +178,7 @@ nav {
 .num {
   width: /* 1470px */ 80%;
   margin: 0 auto;
+  position: relative;
 }
 
 .num > h3 {
@@ -187,13 +188,37 @@ nav {
   font-family: "IBM Plex Sans KR", sans-serif;
   margin: 60px 0 60px;
 }
-.num > ul {
+.show > ul {
   display: flex;
   justify-content: center;
   height: 350px;
 }
-.num > ul > li {
+.show > ul > li {
   margin: 0 20px;
+}
+.show {
+  width: 1470px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.click-slider > .left {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 45%;
+  left: -3vw;
+}
+.click-slider > .right {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 45%;
+  right: -3vw;
+}
+.click-slider > p > i > img {
+  max-width: 100%;
 }
 .choice {
   text-align: center;
@@ -371,15 +396,19 @@ nav {
 }
 .img1 > ul {
   margin: 20px;
+  overflow: hidden;
 }
 .img1 > ul > li {
   margin-top: 20px;
+  position: relative;
 }
 .img2 > ul {
   margin-top: 40px;
+  overflow: hidden;
 }
 .img2 > ul > li {
   margin-top: 20px;
+  position: relative;
 }
 .img1 > ul > li:hover {
   transform: scale(1.1);
@@ -467,7 +496,7 @@ footer > ul > li {
   font-size: 18px;
   font-family: "IBM Plex Sans KR", sans-serif;
 }
-
+/* hover 반응 */
 .dimed {
   width: 250px;
   height: 250px;
@@ -497,4 +526,121 @@ footer > ul > li {
 }
 .none {
   position: relative;
+}
+.img1 {
+  position: relative;
+}
+.dimed_1 {
+  width: 350px;
+  height: 422px;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.dimed_1 > button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 200px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+.dimed_1:hover {
+  opacity: 1;
+  transition: all 0.5 ease-in;
+}
+.lotte {
+  position: relative;
+}
+.img1 {
+  position: relative;
+}
+/*  */
+.dimed_2 {
+  width: 350px;
+  height: 220px;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.dimed_2 > button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 200px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+.dimed_2:hover {
+  opacity: 1;
+  transition: all 0.5 ease-in;
+}
+
+/*  */
+.dimed_3 {
+  width: 350px;
+  height: 220px;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.dimed_3 > button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 200px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+.dimed_3:hover {
+  opacity: 1;
+  transition: all 0.5 ease-in;
+}
+/*  */
+.dimed_4 {
+  width: 350px;
+  height: 220px;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.dimed_4 > button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 200px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+.dimed_4:hover {
+  opacity: 1;
+  transition: all 0.5 ease-in;
 }
