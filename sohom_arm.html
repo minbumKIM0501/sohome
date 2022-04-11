@@ -21,52 +21,53 @@
           </ul>
         </header>
         <div class="navbar">
+          <p id="btn_01">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </p>
           <nav>
             <ul class="nav">
-              <li><a href="./sohome.html">리클라이너</a>
-                  <div class="hover">
-                      <h3>리클라이너</h3>
-                      <ul>
-                      <li><a href="./sohome.html">1인용</a></li>
-                      <li><a href="./sohome.html">리클라이너 소파</a></li>
+              <li>
+                <a href="./sohome.html">리클라이너</a>
+                <div class="hover">
+                  <h3>리클라이너</h3>
+                  <ul>
+                    <li><a href="./sohome.html">1인용</a></li>
+                    <li><a href="./sohome.html">리클라이너 소파</a></li>
                   </ul>
-                  </div>
+                </div>
               </li>
-              <li><a href="./Recliner Sofa.html">소파</a>
-                  <div class="hover">
-                      <h3>소파</h3>
-                      <ul>
-                      <li><a href="./Recliner Sofa.html">2/3 인</a></li>
-                      <li><a href="./Recliner Sofa.html">3/4 인용</a></li>
-                      <li><a href="./Recliner Sofa.html">5인용 이상</a></li>
+              <li>
+                <a href="./Recliner Sofa.html">소파</a>
+                <div class="hover">
+                  <h3>소파</h3>
+                  <ul>
+                    <li><a href="./Recliner Sofa.html">2/3 인</a></li>
+                    <li><a href="./Recliner Sofa.html">3/4 인용</a></li>
+                    <li><a href="./Recliner Sofa.html">5인용 이상</a></li>
                   </ul>
-                  </div>
+                </div>
               </li>
-              <li><a href="./sohom_arm.html">암체어</a>
-                  <div class="hover">
-                      <h3>암체어</h3>
-                      <ul>
-                      <li><a href="./sohom_arm.html">암체어</a></li>
+              <li>
+                <a href="./sohom_arm.html">거실가구</a>
+                <div class="hover">
+                  <h3>거실가구</h3>
+                  <ul>
+                    <li><a href="./sohom_arm.html">암체어</a></li>
+                    <li><a href="./sohom_table.html">소파테이블</a></li>
+                    <li><a href="./ottoman.html">오토만</a></li>
                   </ul>
-                  </div>
+                </div>
               </li>
-              <li><a href="./sohom_table.html">소파테이블</a>
-                  <div class="hover">
-                      <h3>소파테이블</h3>
-                      <ul>
-                      <li><a href="./sohom_table.html">소파테이블</a></li>
-                  </ul>
-                  </div>
-              </li>
-              <li><a href="./ottoman.html">오토만</a>
-                  <div class="hover">
-                      <h3>오토만</h3>
-                      <ul>
-                      <li><a href="./ottoman.html">ottoman</a></li>
-                  </ul>
-                  </div>
-              </li>
-          </ul>
+              <!-- close -->
+              <p class="close">
+                <span></span>
+                <span></span>
+              </p>
+            </ul>
             <ul class="log">
               <li><a href="./login.html">로그인</a></li>
               <li><a href="#">회원가입</a></li>
@@ -74,7 +75,7 @@
           </nav>
         </div>
       </div>
-      <div class="main">
+      <div class="main" id="top">
         <article>
           <div class="left">
             <div class="rec">
@@ -313,6 +314,13 @@
         </colgroup>
       </div>
       <!-- board -->
+            <!-- aside -->
+            <div id="submenu">
+              <h4 class="hide">top btn</h4>
+                <a href="#top">
+                  <img src="img/top.png" alt="top버튼">
+                </a>
+            </div>
 
       <div class="bt-nav">
         <footer>
@@ -365,6 +373,39 @@
               $(this).hide();
           });
       });
+      $(function(){
+// 		// 1.css정리 -> 브라우저 height 가져오기 ->section height 값 설정
+		let wheight = $(window).height();
+ 		console.log(wheight);
+ 		$('.danger').height(wheight);
+// 		// 2.이벤트
+ 		$('.lh li > a').on('click',function(e){
+ 			let aHref = $(this).attr('href');
+ 			let secTop = $(aHref).offset().top;
+			console.log(aHref,':',secTop);
+ 			$('html,body').animate({scrollTop:secTop-60},1000);
+
+ 			return false;
+ 		});
+
+ 	});
+     //  aside event
+  $(function(){
+// 		// 1.css정리 -> 브라우저 height 가져오기 ->section height 값 설정
+		let wheight = $(window).height();
+ 		console.log(wheight);
+ 		$('.danger').height(wheight);
+// 		// 2.이벤트
+ 		$('#submenu > a').on('click',function(e){
+ 			let aHref = $(this).attr('href');
+ 			let secTop = $(aHref).offset().top;
+			console.log(aHref,':',secTop);
+ 			$('html,body').animate({scrollTop:secTop-60},1000);
+
+ 			return false;
+ 		});
+
+ 	}); 
   </script>
   </body>
 </html>

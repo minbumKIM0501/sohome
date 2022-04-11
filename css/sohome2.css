@@ -67,6 +67,7 @@ nav {
   background-position: 90% 50%;
   left: 0;
   top: 20px;
+  z-index: 9999;
 }
 .navbar > nav > .nav > li:nth-child(2) > .hover{
   background-image:url('../img/sofa_hover_03.png');
@@ -214,6 +215,7 @@ article > .right {
   background-color: #ca001e;
   font-size: 14px;
   color: #ffffff;
+  border-radius: 5px;
 }
 .red > p > .btn2 {
   border: none;
@@ -222,6 +224,7 @@ article > .right {
   background-color: #4f5256;
   font-size: 14px;
   color: #ffffff;
+  border-radius: 5px;
 }
 .lh {
   width: 1260px;
@@ -273,14 +276,15 @@ article > .right {
   width: 100%;
   margin: 0 auto;
   max-width: 1040px;
-  background-color: #efefef56;
+  background-color: #efefef;
   padding: 85px;
-  /* border-radius: 40px; */
+  border-radius: 40px;
 }
 .review > .danger > .time > h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Nanum Myeongjo", serif;
   color: #333333;
+  margin: 15px 0;
 }
 .review > .danger > .time > ul > li {
   font-size: 15px;
@@ -378,11 +382,21 @@ article > .right {
 .board > table > tbody > tr > .name2 {
   text-align: center;
 }
+/* top aside */
+#submenu  > a{
+  position: fixed;
+  bottom: 350px;
+  right: 50px;
+  z-index: 750;
+}
+#submenu > a > img{
+  width: 150px;
+}
 /* footer */
-aside {
+/* aside {
   padding: 60px 0;
   background: url(../img/sample3_30.gif) repeat-x;
-}
+} */
 .contact {
   color: #ffffff;
   font-family: "Nanum Myeongjo", serif;

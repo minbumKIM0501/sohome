@@ -277,6 +277,13 @@
     position: absolute;
     background-size: 980px;
   }
+  /* 고객님을 위한 가구 추천 */
+  .num {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+  }
+  /*  */
   /* footer */
   footer > dl {
     display: none;
